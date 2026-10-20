@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Projeto 2 - Mesa e objetos</title>
+<!-- Precisa ser servido por http(s):// - o fetch() dos shaders e imagens
+     falha em file://. Ex.: na raiz do repositorio, python3 -m http.server -->
+<style>
+  html, body { margin: 0; height: 100%; background: #222; overflow: hidden; }
+  /* o canvas ocupa a janela inteira; a resolucao e ajustada no projeto2.js */
+  canvas { display: block; width: 100vw; height: 100vh; touch-action: none; }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script type="module" src="./projeto2.js"></script>
+</body>
+</html>
